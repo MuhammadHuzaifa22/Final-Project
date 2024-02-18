@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:url(1111.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#label{
+    color:red;
+}
+
+.protest-riot-regular {
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.container {
+    height: 85vh;
+    font-family: "Protest Riot", sans-serif;
+    color: yellow;
+    font-size: x-large;
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: transparent;
+}
+
+h2 {
+    text-align: center;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    fon
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    
+    background-color: #e5e24d;
+}
+
+.form-group:last-child {
+    margin-bottom: 0;
+}
+
+.switch {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.switch a {
+    text-decoration: none;
+    color: #faf5f5;
+}
+
+.switch a:hover {
+    color: #d60c0c;
+}
+
+
+@media screen and (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+}
